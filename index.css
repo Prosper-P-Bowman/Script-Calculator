@@ -1,0 +1,108 @@
+body{
+    box-sizing: 0;
+    /* background-color:cornsilk; */
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(100deg, blue, red, orange, yellow, pink, brown);
+}
+
+.parent{
+    /* background: aquamarine; */
+    border: solid 2px;
+    border-radius: 25px;
+    width: 30%;
+    height: 90vh;
+    background-color: white;
+    
+}
+.parent h1{
+    text-align: center;
+    
+}
+form{
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    /* background: whitesmoke; */
+    height: 60vh;
+}
+label{
+    font-weight: bold;
+    color: black;
+    position: relative;
+    margin-right: 300px;
+}
+input{
+    margin: 10px 0;
+    width: 350px;
+    height: 25px;
+}
+.forgot{
+    text-align: right;
+    margin-right: 10px;
+}
+/* .login{
+    text-align: center;
+    border-radius: 50pc;
+    background: yellow;
+    width: 500px;
+    height: 0px;
+} */
+button{
+    border-radius: 200px;
+    border: seashell;
+}
+.login{
+    width: 300px;
+    height: 32px;
+    background-color: rgb(70, 70, 250);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign{
+    margin-top: 35px;
+    color: rgba(0, 0, 0, 0.606);
+    font-size: 14px;
+}
+.icon{
+    /* width: 30px; */
+    /* background-color: yellow; */
+    height: 30px;
+}
+.icon a{
+    background-color: white;
+    /* color: white; */
+}
+.facebook{
+    width: 32px;
+    height: 30px;
+}
+.facebook a{
+    font-size: 18px;
+}
+.twitter{
+    width: 32px;
+    height: 30px;
+}
+.twitter a{
+    font-size: 18px;
+}
+.google{
+    width: 32px;
+    height: 30px;
+}
+.google a{
+    font-size: 18px;
+}
+.text{
+    margin-top: 50px;
+}
+.signup{
+    width: 100px;
+    height: 25px;
+    color: red;
+}
