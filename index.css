@@ -1,108 +1,331 @@
-body{
-    box-sizing: 0;
-    /* background-color:cornsilk; */
-    margin: 40px 0 0 0;
-    display: flex;
+/* body{
+ box-sizing: border-box;
+ padding: 0;
+}
+.section{
+    padding: 0;
+    margin: 0;
+    height: 95vh;
+    align-items: center;
+    align-self: center;
+    align-content: center;
     justify-content: center;
-    align-items: center;
-     background: linear-gradient(100deg, blue, red, orange, yellow, pink, brown);
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
 }
-
-.parent{
-    /* background: aquamarine; */
-    border: solid 2px;
-    border-radius: 25px;
-    width: 30%;
-    height: 90vh;
-    background-color: white;
+.main{
+    border-radius: 50px;
+    background-color: black;
+    width: 22%;
+    height: 80vh;
+    align-content: center;
     
-}
-.parent h1{
-    text-align: center;
-    
-}
-form{
-    align-items: center;
-    padding: 25px;
-    text-align: center;
-    /* background: whitesmoke; */
-    height: 60vh;
-}
-label{
-    font-weight: bold;
-    color: black;
-    position: relative;
-    margin-right: 300px;
+    justify-items: center;
+    justify-self: center;
 }
 input{
-    margin: 10px 0;
-    width: 350px;
-    height: 25px;
-}
-.forgot{
-    text-align: right;
-    margin-right: 10px;
-}
-/* .login{
-    text-align: center;
-    border-radius: 50pc;
-    background: yellow;
-    width: 500px;
-    height: 0px;
-} */
-button{
-    border-radius: 200px;
-    border: seashell;
-}
-.login{
-    width: 300px;
-    height: 32px;
-    background-color: rgb(70, 70, 250);
     color: white;
+    border: black;
+    border-radius: black;
+    background-color: black;
+    font-size: 30px;
+    width: 15rem;
+    height: 12vh;
+    margin-bottom: 20px;
+    text-align: right;
+}
+input::placeholder{
+    border: black;
+    border-radius: black;
+    background-color: black;
+    text-align: right;
+}
+button{
+    font-size: 18px;
     font-weight: bold;
-    font-size: 16px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 5rem;
+    width: 60px;
+    height: 60px;
 }
-.sign{
-    margin-top: 35px;
-    color: rgba(0, 0, 0, 0.606);
-    font-size: 14px;
+.bar{
+    height: 8vh;
+    width: 297px;
+    position: absolute;
+    text-align: center;
+    align-content: center;
 }
-.icon{
-    /* width: 30px; */
-    /* background-color: yellow; */
-    height: 30px;
-}
-.icon a{
+.bar button{
     background-color: white;
-    /* color: white; */
+    font-size: 0;
+    font-size: none;
+    cursor: pointer;
+    border-radius: none;
+    height: 8px;
+    width: 130px;
+} */
+
+ /* Media Query for Mobile Devices */ 
+ @media (min-width: 110px) and (max-width: 480px) {
+    .section{
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .main{
+        border-radius: 45px;
+        background-color: black;
+        width: 75%;
+        height: 60vh;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    input{
+        color: white;
+        border: black;
+        border-radius: black;
+        background-color: black;
+        font-size: 30px;
+        width: 15rem;
+        height: 8vh;
+        margin-bottom: 18px;
+        text-align: right;
+    }
+    input::placeholder{
+        border-radius: black;
+        background-color: black;
+        text-align: right;
+    }
+    button{
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5rem;
+        width: 60px;
+        height: 60px;
+    }
+    .bar{
+        display: none;
+    }
 }
-.facebook{
-    width: 32px;
-    height: 30px;
+
+/* Media Query for low resolution Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) {
+    .section{
+        background-color: red;
+        width: 100%;
+        height: 98vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .main{
+        border-radius: 45px;
+        background-color: black;
+        width: 62%;
+        height: 70vh;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    input{
+        color: white;
+        border: black;
+        border-radius: black;
+        background-color: black;
+        font-size: 30px;
+        width: 15rem;
+        height: 8vh;
+        margin-bottom: 18px;
+        text-align: right;
+    }
+    input::placeholder{
+        border-radius: black;
+        background-color: black;
+        text-align: right;
+    }
+    button{
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5rem;
+        width: 60px;
+        height: 60px;
+    }
+    .bar{
+        display: none;
+    }
 }
-.facebook a{
-    font-size: 18px;
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .main{
+        border-radius: 45px;
+        background-color: black;
+        width: 45%;
+        height: 60vh;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    input{
+        color: white;
+        border: black;
+        border-radius: black;
+        background-color: black;
+        font-size: 30px;
+        width: 15rem;
+        height: 8vh;
+        margin-bottom: 18px;
+        text-align: right;
+    }
+    input::placeholder{
+        border-radius: black;
+        background-color: black;
+        text-align: right;
+    }
+    button{
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5rem;
+        width: 64px;
+        height: 64px;
+    }
+    .bar{
+        display: none;
+    }
+} 
+
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .section{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .main{
+        border-radius: 45px;
+        background-color: black;
+        width: 30%;
+        height: 80vh;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    input{
+        color: white;
+        border: black;
+        border-radius: black;
+        background-color: black;
+        font-size: 30px;
+        width: 15rem;
+        height: 8vh;
+        margin-bottom: 18px;
+        text-align: right;
+    }
+    input::placeholder{
+        border-radius: black;
+        background-color: black;
+        text-align: right;
+    }
+    button{
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5rem;
+        width: 64px;
+        height: 64px;
+    }
+    .bar{
+        display: none;
+    }
 }
-.twitter{
-    width: 32px;
-    height: 30px;
-}
-.twitter a{
-    font-size: 18px;
-}
-.google{
-    width: 32px;
-    height: 30px;
-}
-.google a{
-    font-size: 18px;
-}
-.text{
-    margin-top: 50px;
-}
-.signup{
-    width: 100px;
-    height: 25px;
-    color: red;
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) {
+    .section{
+        width: 100%;
+        height: 90vh;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .main{
+        border-radius: 45px;
+        background-color: black;
+        width: 22%;
+        height: 80vh;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    input{
+        color: white;
+        border: black;
+        border-radius: black;
+        background-color: black;
+        font-size: 30px;
+        width: 15rem;
+        height: 8vh;
+        margin-bottom: 18px;
+        text-align: right;
+    }
+    input::placeholder{
+        border-radius: black;
+        background-color: black;
+        text-align: right;
+    }
+    button{
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5rem;
+        width: 64px;
+        height: 64px;
+    }
+    .bar{
+        height: 8vh;
+        width: 297px;
+        position: absolute;
+        text-align: center;
+        align-content: center;
+    }
+    .bar button{
+        background-color: white;
+        font-size: 0;
+        font-size: none;
+        cursor: pointer;
+        border-radius: none;
+        height: 8px;
+        width: 120px;
+    }
+  
 }
