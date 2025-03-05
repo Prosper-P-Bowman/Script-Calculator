@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <script src="index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -13,33 +13,33 @@
     <div class="section">
         <div class="main">
             <div class="displayField">
-                <input type="text">
+                <input placeholder="0" type="text" id="InputNumber">
             </div>  
             <div class="buttonGroup">
-                <button class="ac">AC</button>
-                <button class="delete">+/-</button>
-                <button class="percent">%</button>
-                <button class="division">÷</button>
+                <button onClick="clearAll()" class="clear">AC</button>
+                <button onClick="remove()" class="delete">+/-</button>
+                <button onClick="appendToDisplay('%')" class="percent">%</button>
+                <button onClick="appendToDisplay('/')" class="division">÷</button>
                 <br>
-                <button class="seven">7</button>
-                <button class="eight">8</button>
-                <button class="nine">9</button>
-                <button class="multiple">X</button>
+                <button onClick="appendToDisplay('7')" class="seven">7</button>
+                <button onClick="appendToDisplay('8')" class="eight">8</button>
+                <button onClick="appendToDisplay('9')" class="nine">9</button>
+                <button onClick="appendToDisplay('*')" class="multiple">x</button>
                 <br>
-                <button class="four">4</button>
-                <button class="five">5</button>
-                <button class="six">6</button>
-                <button class="minus">-</button>
+                <button onClick="appendToDisplay('4')" class="four">4</button>
+                <button onClick="appendToDisplay('5')" class="five">5</button>
+                <button onClick="appendToDisplay('6')" class="six">6</button>
+                <button onClick="appendToDisplay('-')" class="minus">-</button>
                 <br>
-                <button class="one">1</button>
-                <button class="two">2</button>
-                <button class="three">3</button>
-                <button class="plus">+</button>
+                <button onClick="appendToDisplay('1')" class="one">1</button>
+                <button onClick="appendToDisplay('2')" class="two">2</button>
+                <button onClick="appendToDisplay('3')" class="three">3</button>
+                <button onClick="appendToDisplay('+')" class="plus">+</button>
                 <br>
-                <button class="BG">BG</button>
-                <button class="zero">0</button>
-                <button class="period">.</button>
-                <button class="equal">=</button>
+                <button onClick="changeBackgrouundcolor()" class="backgroundColor">BG</button>
+                <button onClick="appendToDisplay('0')" class="zero">0</button>
+                <button onClick="appendToDisplay('.')" class="period">.</button>
+                <button onClick="calculate()" class="equal">=</button>
             </div>
             <div class="bar"><button></button></div>
         </div>
