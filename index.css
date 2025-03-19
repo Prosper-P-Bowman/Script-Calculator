@@ -82,7 +82,7 @@ button{
     .main{
         border-radius: 45px;
         background-color: black;
-        width: 75%;
+        width: 76%;
         height: 60vh;
         align-content: center;
         justify-items: center;
@@ -98,6 +98,7 @@ button{
         height: 8vh;
         margin-bottom: 18px;
         text-align: right;
+        border-radius: 15px;
     }
     input::placeholder{
         color: white;
@@ -183,10 +184,10 @@ button{
         justify-self: center;
     }
     .main{
-        border-radius: 45px;
+        border-radius: 40px;
         background-color: black;
-        width: 35%;
-        height: 90vh;
+        width: 22%;
+        height: 70vh;
         align-content: center;
         justify-items: center;
         justify-self: center;
@@ -197,7 +198,7 @@ button{
         border-radius: black;
         background-color: black;
         font-size: 30px;
-        width: 15rem;
+        width: 10rem;
         height: 12vh;
         margin-bottom: 10px;
         text-align: right;
@@ -209,12 +210,12 @@ button{
         text-align: right;
     }
     button{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         cursor: pointer;
         border-radius: 5rem;
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
     .bar{
         display: none;
