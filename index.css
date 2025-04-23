@@ -69,21 +69,11 @@ button{
 
  /* Media Query for Mobile Devices */ 
  @media (min-width: 110px) and (max-width: 480px) {
-    .section{
-        width: 100%;
-        height: 80vh;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
-    }
     .main{
         border-radius: 45px;
         background-color: black;
-        width: 76%;
-        height: 60vh;
+        width: 60%;
+        height: 80vh;
         align-content: center;
         justify-items: center;
         justify-self: center;
@@ -93,7 +83,7 @@ button{
         border: black;
         border-radius: black;
         background-color: black;
-        font-size: 30px;
+        font-size: 42px;
         width: 15rem;
         height: 8vh;
         margin-bottom: 18px;
@@ -121,7 +111,7 @@ button{
 
 /* Media Query for low resolution Tablets, Ipads */ 
 @media (min-width: 481px) and (max-width: 767px) {
-    .section{
+    /* .section{
         background-color: black;
         width: 100%;
         height: 98vh;
@@ -168,12 +158,12 @@ button{
     }
     .bar{
         display: none;
-    }
+    } */
 }
 
 /* Media Query for Tablets Ipads portrait mode */ 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .section{
+    /* .section{
         width: 100%;
         height: 100vh;
         align-items: center;
@@ -219,12 +209,12 @@ button{
     }
     .bar{
         display: none;
-    }
+    } */
 } 
 
 /* Media Query for Laptops and Desktops */ 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .section{
+    /* .section{
         width: 100%;
         height: 100vh;
         align-items: center;
@@ -270,11 +260,11 @@ button{
     }
     .bar{
         display: none;
-    }
+    } */
 }
 /* Media Query for Large screens */ 
 @media (min-width: 1281px) {
-    .section{
+    /* .section{
         width: 100%;
         height: 90vh;
         align-items: center;
@@ -334,5 +324,5 @@ button{
         height: 8px;
         width: 120px;
     }
-  
+   */
 }

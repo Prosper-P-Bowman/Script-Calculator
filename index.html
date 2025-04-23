@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="section">
         <div class="main">
             <div class="displayField">
                 <input placeholder="0" type="text" id="InputNumber">
             </div>  
             <div class="buttonGroup">
                 <button onClick="clearAll()" class="clear">AC</button>
-                <button onClick="remove()" class="delete">+/-</button>
+                <button onClick="appendToDisplay('-')" class="delete">+/-</button>
                 <button onClick="appendToDisplay('%')" class="percent">%</button>
                 <button onClick="appendToDisplay('/')" class="division">÷</button>
                 <br>
@@ -42,6 +41,5 @@
             </div>
             <div class="bar"><button title="Bar Button"></button></div>
         </div>
-    </div>
 </body>
 </html>

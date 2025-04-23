@@ -22,7 +22,7 @@ function remove(){
 }
 
 function changeBackgrouundcolor(){
-    const section = document.querySelector(".section");
+    const section = document.querySelector(".main");
     const htmlBody = document.querySelector("body");
     const colors = ["Red", "Cyan", "DarkBlue", "LightBlue", "Purple", "Yellow", "Lime", "Magenta", "Pink", "White", "Silver", "Grey", "Orange", "Brown", "Maroon", "Green", "Olive", "Aquamarine"];
     const justIndex = Math.floor(Math.random() * colors.length);
