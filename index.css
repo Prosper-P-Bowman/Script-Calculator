@@ -1,8 +1,6 @@
 /* Media Query for Mobile Devices */ 
 @media (min-width: 110px) and (max-width: 480px) {
     .main{
-        background-color: greenyellow;
-        justify-self: center;
         border-radius: 24px;
     }
     .displayField{
@@ -23,13 +21,10 @@
         color: black;
     }
     .buttonGroup{
-        background-color: red;
-        width: 80%;
+        width: 90%;
         padding: 10px;
         gap: 15px;
-        justify-content: center;
-        justify-items: center;
-        justify-self: center;
+        text-align: center;
     }
     button{
         margin: 2px;
