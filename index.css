@@ -68,7 +68,7 @@ button{
 } */
 
  /* Media Query for Mobile Devices */ 
- @media (min-width: 110px) and (max-width: 480px) {
+ @media (max-width: 768px) {
     .main{
         border-radius: 45px;
         background-color: black;
@@ -112,7 +112,7 @@ button{
 
 /* Media Query for low resolution Tablets, Ipads */ 
 @media (min-width: 481px) and (max-width: 767px) {
-    .main{
+    /* .main{
         border-radius: 45px;
         background-color: black;
         width: 62%;
@@ -149,7 +149,7 @@ button{
     }
     .bar{
         display: none;
-    }
+    } */
 }
 
 /* Media Query for Tablets Ipads portrait mode */ 
