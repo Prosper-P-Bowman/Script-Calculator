@@ -23,6 +23,8 @@
         color: black;
     }
     .buttonGroup{
+        background-color: red;
+        width: 80%;
         padding: 10px;
         gap: 15px;
         justify-content: center;
